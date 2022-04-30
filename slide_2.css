@@ -1,0 +1,213 @@
+h1{
+    color: #3a6cf4;
+    text-align: center;
+    font-size: 6em;
+    font-weight: 800;
+}
+.sec1{
+    background-image: url(images/photos_2/fayoum.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: -8;
+}
+.sec1 h1{
+    text-transform: uppercase;
+    font-family: Impact;
+} 
+.postovis{
+    font-size: 50;
+    font-family: cursive;
+    color: brown;
+    /* margin: 15px; */
+    padding: 10px ;
+    text-transform: uppercase;
+}
+.content1{
+    color:#ffffff;
+    font-size: 30;
+    font-family: cursive;
+    padding: 25px;
+    width: 21.25em;
+    text-align: center;
+    padding: 10px;
+    margin-top: -50;
+    margin-bottom: 168;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 800; */
+}
+
+/* rgba(9, 255, 9, 0.716) */
+/* .map{
+    margin: 15px;
+    margin-left: 1250;
+} */
+.about{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+.contants{
+    margin: 47px;
+    padding: 25px;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /100%);
+}
+.photo{
+
+    text-align: center;
+}
+.information{
+    text-align: center;
+    font-family: cursive;
+}
+.information h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.sec2{
+    background-color: #082e95;
+    border-radius: 10px;
+}
+.last{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}  
+.section2{
+    margin: 55px;
+    padding: 25px;
+    width: 21.25em;
+}
+.icon{
+    text-align: center;
+}
+.mar h3{
+    color: gold;
+}
+.footer{
+    background-color:black;
+    color:white;
+    padding:2em;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.footer a i{
+    color:white;
+    font-size:1.7em;
+    padding-right: 30px;
+}
+.footer p{
+    font-size:1.3em;
+    font-weight:600;
+}
+.footer p span{
+    color:#3a6cf4;
+}
+.footer p span:hover{
+  color: #cfcc04d3;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: #273c75
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btns{
+    background-color: #f0f0f0;
+    text-align: center;
+    border-radius: 10px;
+}
+.imagess{
+    display: none;
+}
+.table{
+    display: none;
+}
+table{
+    width: 100%;
+    /* border: 1px solid #ccc; */
+    border-spacing: 11px;
+}
+table td{
+    padding: 15px;
+    background-color: #eee;
+    /* border: 1px solid #ccc; */
+}
+table thead td{
+    background-color:#009988 ;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+header{
+  background-color: whitesmoke;
+  width: 100%;
+  position:fixed;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 200px;
+  
+}
+.logo2{
+  text-decoration: none;
+  color:#3a6cf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:1.8em;
+}
+.navigation a{
+    color:#3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight:500;
+    padding-left:60px;
+    position:relative;
+    right: -40%;
+}
+.navigation a:hover
+{
+    color:red;
+}
+.search
+{
+    padding-right:50px;
+    position:absolute;
+    right:0px;
+    margin-right: 30px;
+    background-color:whitesmoke;
+}
+.search:hover{
+    background-color:lightgray;
+    border-radius:15px;
+    border:5px solid black;
+}
+header i{
+    padding-right:37px;
+    position:absolute;
+    right:0px;
+    background-color:transparent;
+}
+

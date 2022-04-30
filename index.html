@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <title>
+            Tourism in Fayoum
+        </title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="slide_2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="$" class="logo2"> PHARAOH </a>
+            <nav class="navigation">
+              <a href=#services> Services </a>
+              <a href=#Booking> Booking </a>
+              <a href=#contactus> Contact us </a>
+             </nav>
+               <textarea class="search" type="search" placeholder=" Search"></textarea>
+               <i class="fa fa-search"></i><br>
+        </header>
+        
+        <section class="sec1">
+            <h1>Fayoum</h1>
+            <div class="postovis">
+                <h2>tourism in Fayoum</h2>
+            </div>
+            <div class="content1">
+                The city of Fayoum is one of the most important tourist cities in Egypt because of its ancient history throughout the ages. It includes many Roman and Pharaonic monuments, in addition to a group of museums, gardens, and wonderful valleys. Fayoum also has attractive tourism for visitors from inside and outside Egypt.
+            </div>
+            <button type="button"  onclick="nightmode();" class="btn">night mode</button>
+            <button type="button" onclick="daymode();" class="btn">white mode</button>
+        </section>
+        <!-- <div class="map">
+            <iframe src="https://goo.gl/maps/6zUbeAcM94GjQtLr9" width="250" height="250"></iframe>
+        </div> -->
+        <div class="about" id="mode">
+            <div class="contants" id="box1">
+                <div class="photo">
+                    <img src="images/photos_2/haram.jpg" title="haram" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>Hawara pyramid </h3>
+                    <p>
+                        It is one of the pharaonic pyramids and one of the most important tourist places in Fayoum.
+                        It was built for King Amenemhat III.
+                        It is made of mud bricks covered with a layer of limestone. 
+                        Its original height was 58 meters. Only 20 meters remain. 
+                        The pyramid of Hawara contains corridors and many rooms ending in a room. 
+                        Burial.
+                    </p>
+                </div>
+            </div>
+            <div class="contants" id="box2">
+                <div class="photo">
+                    <img src="images/photos_2/madina.jpg" title="Tunisia Village" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>Tunisia Village </h3>
+                    <p>
+                        The village of Tunis is one of the best tourist places in Fayoum, Egypt, which God has blessed with a beautiful nature and amazing views that made it a destination for visitors of various nationalities, as it combines the joyful green spaces, the blue waters of Lake Qarun, and the yellow sands north of the lake.
+                        It is also characterized by the manufacture of ceramics and a large number of The artistic ceremonies that make it an open-air museum, also includes the distinguished caricature museum.
+                    </p>
+                </div>
+            </div>
+            <div class="contants" id="box3">
+                <div class="photo">
+                    <img src="images/photos_2/madina.jpg" title="The ancient city of Karnis" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>The ancient city of Karnis</h3>
+                    <p>
+                        One of the best tourist attractions in Fayoum, Egypt, is one of the Greco-Roman cities established by Ptolemy III on an area of ​​800 meters. 
+                        It is amazing that this entire city was discovered after excavations, and they found it to include houses built of mud bricks, whose walls were decorated with distinctive inscriptions, as well as a mill, a bakery , a granary, and two Roman baths, in addition to many temples, including the southern temple.
+                    </p>
+                </div>
+            </div>
+            <div class="contants" id="box4">
+                <div class="photo">
+                    <img src="images/photos_2/qaroon.jpg" title="Qarun Palace" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>Qarun Palace</h3>
+                    <p>
+                        One of the most prestigious landmarks of the city of Fayoum, Egypt, is one of the Ptolemaic temples, known as the Temple of Ptolemy, which is characterized by its simple design, but carries within it the utmost architectural accuracy when the sun perpendicular every year to the Holy of Holies in this temple with the beginning of winter on September 21, this temple may seem From the outside it is small in size, but once you step inside it you will find an attractive place to discover its secrets.
+                    </p>
+                </div>
+            </div>
+            <div class="contants" id="box5">
+                <div class="photo">
+                    <img src="images/photos_2/wadi.jpg" title="Whale Valley Reserve" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>Whale Valley Reserve</h3>
+                    <p>
+                        One of the most important tourist places in Fayoum, which is a nature reserve that contains structures of whales and other marine animals and plants dating back 40 million years, and the importance of Whale Valley is that it provides a natural environment for many endangered animals and birds, as well as for migratory birds throughout the year. It has mangrove forests.
+                    </p>
+                </div>
+            </div>
+            <div class="contants" id="box6">
+                <div class="photo">
+                    <img src="images/photos_2/kom.jpg" title="Kom Ushim Archeology Museum" width="250" height="250">
+                </div>
+                <div class="information">
+                    <h3>Kom Ushim Archeology Museum</h3>
+                    <p>
+                        One of the most beautiful tourist places in Fayoum, which includes a unique collection of archaeological statues that bear the fragrance of history and the greatness of the Pharaohs, and distinctive paintings that are thousands of years old that tell us the legends of the distant past. For the first time on the public.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="btns" id="btns1">
+            <button onclick="showmap();" id="map" class="btn">view the map</button>
+            <button onclick="showtable();" id="price" class="btn">view the plan</button>
+            <br>
+            <div class="imagess" id="imagesss">
+                <img src="images/map.jpeg" height="700" width="700">
+                <br>
+                <button onclick="hiddenmap();" id="" class="btn">hide the map</button>
+            </div>
+            <div class="table" id="plan">
+                <table class="tables" id="tableid">
+                    <caption>the plane to go</caption>
+                    <thead>
+                        <tr>
+                            <td>the place</td>
+                            <td>time to go</td>
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hawara pyramid</td>
+                            <td>09:00 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Tunisia Village</td>
+                            <td>11:00 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Tunisia Village</td>
+                            <td>01:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Qarun Palace</td>
+                            <td>01:30 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Qarun Palace</td>
+                            <td>02:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Qarun Palace</td>
+                            <td>03:00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td>total GPA</td>
+                        <td>3.206</td>
+                      </tr>
+                    </tfoot>
+                </table>
+                
+                <button onclick="hidtable();" class="btn">hide the plan</button>
+                
+            </div>
+        </div>
+        <section class="sec2">
+            <div class="last">
+                <div class="section2">
+                    <div class="icon">
+                        <img src="images/photos_2/secure.jpg" title="secure" width="70px" height="70px"> 
+                    </div>
+                    <div class="mar">
+                        <h3>Secure</h3>
+                        <p>
+                            We value your privacy and protect your financial/personal info with advanced encryption and advanced fraud protection.
+                        </p>
+                    </div>
+                </div>
+                <div class="section2">
+                    <div class="icon">
+                        <img src="images/photos_2/customer-service.png" title="support" width="70px" height="70px">
+                    </div>
+                    <div class="mar">
+                        <h3>Support Service</h3>
+                        <p>
+                            Please 
+                            <href>contact us</href>
+                            for pricing options regarding: Volume pricing & Site licenses & Multi-user license.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="Copyrights"> &copy; Copyrights 2022 @ <span>PHARAOH</span></p>
+            <div>
+                <a href="https://www.linkedin.com" target="_blank"><i  id="linkedin"class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i  id="fb"class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com"><i id="yt"class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.twitter.com" ><i id="tweet"class="fa-brands fa-twitter"></i></a>
+            </div>
+        </footer>
+        <script src="slide_2.js"></script>
+    </body>
+</html>
